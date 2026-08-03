@@ -1,4 +1,4 @@
-# MultiSkrip (KSHY112L) —
+# MultiSkrip (KSHY112L)
 
 **MultiSkrip** es un entorno de auditoría forense y análisis en tiempo real desarrollado en PowerShell, creado para moderadores y staff que realizan revisiones de **ScreenShare (SS)** en servidores de Minecraft. Su objetivo principal es simplificar la inspección del sistema operativo, identificar artefactos anómalos y verificar la integridad de Windows durante una auditoría en vivo, manteniendo siempre una postura segura mediante confirmaciones previas y respaldos del Registro.
 
