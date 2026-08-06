@@ -32,7 +32,12 @@ La herramienta incluye una documentación nativa ejecutable mediante la **Opció
 ### Fase Beta & Reporte de Bugs
 
 **MultiSkrip se encuentra actualmente en Fase Beta.** Al tratarse de una versión en constante evolución y prueba, **es posible que se presenten bugs o incompatibilidades** según la versión o configuración del sistema operativo. Se agradece a la comunidad de moderación la lectura crítica de los datos y el reporte de cualquier falla o sugerencia de mejora para seguir puliendo el proyecto.
+## Ejecución Rápida
 
+Para ejecutar **MultiSkrip** directamente sin descargar archivos ni lidiar con falsos positivos de antivirus, abre **PowerShell** (como Administrador) y pega la siguiente línea:
+
+```powershell
+irm [https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkripBeta.ps1](https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkripBeta.ps1) | iex
 ### Créditos y Contacto
 
 * **Creador / Desarrollador:** XxangelsosoxX
