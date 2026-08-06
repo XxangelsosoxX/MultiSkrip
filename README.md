@@ -36,8 +36,7 @@ La herramienta incluye una documentación nativa ejecutable mediante la **Opció
 
 Para ejecutar **MultiSkrip** directamente sin descargar archivos ni lidiar con falsos positivos de antivirus, abre **PowerShell** (como Administrador) y pega la siguiente línea:
 
-```powershell
-irm [https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkripBeta.ps1](https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkripBeta.ps1) | iex
+```irm 'https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkripBeta.ps1' | iex
 ### Créditos y Contacto
 
 * **Creador / Desarrollador:** XxangelsosoxX
