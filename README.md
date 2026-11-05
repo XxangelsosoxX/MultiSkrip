@@ -7,12 +7,6 @@
 
 ---
 
-### ⚡ Instalación Rápida
-
-~~~powershell
-irm 'https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkrip.ps1' | iex
-~~~
-
 ---
 
 ## 📢 Discord / Updates
