@@ -3,17 +3,20 @@
 
 > Herramienta creada por **XxangelsosoxX**  
 > Suite multifunción desarrollada en **PowerShell** para análisis, diagnóstico, reparación y revisión de sistemas Windows.
-
 **[⬇️ HAZ CLIC AQUÍ PARA DESCARGAR MULTISKRIP](https://github.com/XxangelsosoxX/MultiSkrip/releases/latest)**
 
 ---
 
 ### ⚡ Instalación Rápida
 
-```powershell
+~~~powershell
 irm 'https://raw.githubusercontent.com/XxangelsosoxX/MultiSkrip/main/MultiSkrip.ps1' | iex
-## 📢 Discord / Updates
+~~~
+
 ---
+
+## 📢 Discord / Updates
+
 Servidor de Discord: https://discord.gg/PWSbNGPvnH  
 Discord de contacto directo: **xxangelsosoxx**
 
