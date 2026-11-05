@@ -604,13 +604,15 @@ Submenú: `1) Buscar texto personalizado` / `2) Escaneo de indicadores conocidos
 **⚠️ Blindaje Anti-Fake:** Muestra la **Fuente** (ruta del archivo de log) y la **Fecha de modificación**. Si un cheater intentó inyectar el nick de otra persona en un log falso, verás que la fecha es reciente o que el archivo es sospechoso. **Verifica que la fecha coincida con el SS.**
 
 ### [38] 🌐 VPN Detector
-**Consulta** tu IP pública y verifica si estás usando una VPN o Proxy. **Muy útil para ver si el sospechoso intentó ocultar su IP.**
+**Consulta** tu IP pública y verifica si estás usando una VPN o Proxy. **Muy útil Si el User esta evadiendo Ban, en algunos servdiores Banean por el uso de vpn.**
 
 ### [39] 📜 RunMRU Status
 **Revisa** el historial de comandos escritos en Win+R. **Muy útil si intentaron ejecutar comandos ocultos.**
 
-### [40] 🕰️ VSS Lite
-Windows incorpora un mecanismo interno llamado **Volume Shadow Copy Service (VSS)**, que crea snapshots del estado de un volumen. Esta información se almacena en `System Volume Information` y sirve para funciones como System Restore. **Desde el punto de vista forense, es una fuente crítica de datos históricos** porque conserva archivos eliminados, versiones históricas de artefactos (registro, $MFT, $UsnJrnl) y evidencia que persiste **aunque el byppasser intente borrarla**. Si un byppasser borra logs después de crear un snapshot, la copia anterior aún los conserva. 
+[40] 🕰️ **VSS Lite** 
+¿Qué hace? Revisa si el sistema tiene copias de seguridad (Snapshots) de Windows y te muestra su información básica (fecha, volumen, etc.).
+⚠️ **Aclaración importante** : La tool solo detecta si existen y te da los datos, no extrae ni abre los archivos de las copias (eso requeriría herramientas externas pesadas).
+¿Por qué es súper útil en el SS? Porque si la tool te dice que SÍ hay copias, le acabas de dar al staff una pista de oro. El cheater pudo haber borrado archivos o logs, pero si hay un snapshot, el staff puede usar herramientas externas (como ShadowExplorer) para abrir esa copia y recuperar lo que intentaron ocultar.
 **⚠️ Nota:** 0 snapshots puede ser normal (una PC sin restauración configurada), no necesariamente un borrado intencional. Requiere contexto.
 
 ### [41] 🔬 PfCheck
