@@ -119,8 +119,6 @@ $kernel32::SetConsoleMode($h, $m -band -bnot 0x0040)   # quita ENABLE_QUICK_EDIT
 - `[1]` → `ES` · cualquier otro → `EN` (default).
 - `$Global:Traducciones` con **~500 claves por idioma**. Función `T 'Clave'` **resuelve** la traducción o devuelve la clave literal si falta.
 
-**⚠️ Bug conocido:** `Menu_Opt22` **existe en `ES` pero falta en `EN`**. En Windows inglés el menú muestra literalmente `Menu_Opt22`. Pendiente fix.
-
 ### 1.3 — Consentimiento
 - **ES:** `¿El usuario autorizó la revisión del sistema? [S/N]`
 - **EN:** `Did the user authorize system review? [Y/N]`
